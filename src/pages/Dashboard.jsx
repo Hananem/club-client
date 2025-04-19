@@ -57,7 +57,7 @@ const Dashboard = () => {
       )}
 
       {/* Sidebar */}
-      <aside className={`fixed z-20 md:relative transform ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 w-64 h-full  border-r border-gray-200 transition-transform duration-300 ease-in-out`}>
+      <aside className={`fixed z-20 top-0 left-0  bg-white dark:bg-gray-900 md:relative transform ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 w-64 h-full  border-r border-gray-200 transition-transform duration-300 ease-in-out`}>
         <div className="h-full flex flex-col">
           <div className="p-4 border-b border-gray-200 flex items-center justify-between">
             <h1 className="text-xl font-semibold">Logo</h1>

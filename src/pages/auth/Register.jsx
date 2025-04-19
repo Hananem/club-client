@@ -10,7 +10,7 @@ const Register = () => {
       </div>
 
       {/* Right Form Section */}
-      <div className="flex-1 flex items-center justify-center bg-white p-8">
+      <div className="flex-1 flex items-center justify-center  p-8">
         <div className="w-full max-w-md">
           <h2 className="text-3xl font-bold mb-6 text-center">Create an Account</h2>
           <form className="space-y-4">
@@ -37,7 +37,7 @@ const Register = () => {
             </div>
             <button
               type="submit"
-              className="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-green-700 transition"
+              className="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition"
             >
               Register
             </button>
